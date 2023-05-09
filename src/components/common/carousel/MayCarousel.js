@@ -12,7 +12,7 @@ function MayCarousel() {
         goToNextProject();
       }, 5000);
       return () => clearInterval(intervalId);
-     }, [currentProjectIndex]);
+     }, [currentProjectIndex, goToNextProject]);
   
     const goToPrevProject = () => {
       setCurrentProjectIndex(currentProjectIndex === 0 ? data.projets.length - 1 : currentProjectIndex - 1);
