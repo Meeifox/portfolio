@@ -1,0 +1,24 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap : 10px;
+    margin-bottom: 20px;
+    height: 100%;
+
+    .presentation {
+        padding-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+        gap: 50px;
+    }
+    
+    .formation-experience{
+        margin: 0 25px 0 25px;
+        display: flex;
+        flex-direction: row;
+        flex : 1;
+        gap: 50px;
+    }
+}
