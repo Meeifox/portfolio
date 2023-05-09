@@ -1,5 +1,5 @@
 import "./MayCarousel.scss"
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import data from "../../../data/data.json"
 import MayCards from "../../common/cards/Maycards";
 
@@ -10,9 +10,9 @@ function MayCarousel() {
     setCurrentProjectIndex(currentProjectIndex === 0 ? data.projets.length - 1 : currentProjectIndex - 1);
   };
 
-  const goToNextProject = () => {
+  const goToNextProject = useCallback(() => {
     setCurrentProjectIndex(currentProjectIndex === data.projets.length - 1 ? 0 : currentProjectIndex + 1);
-  };
+  }, [currentProjectIndex]);
 
   useEffect(() => {
     const intervalId = setInterval(() => {

@@ -96,10 +96,10 @@
             "img" : "https://www.zupimages.net/up/23/17/bepn.png"
         },
         {
-            "nom": "Sophie Blueul : Page web dynamique",
+            "nom": "Sophie Bluel : Page web dynamique",
             "description": "Création d'une page web dynamique avec JavaScript",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "lien": "Lien vers le projet",
+            "lien": "https://meeifox.github.io/Projet-Sophie_BLUEL/",
             "img" : "https://www.zupimages.net/up/23/17/wme6.png"
 
         },
@@ -107,14 +107,14 @@
             "nom": "Nina Carducci : Optimisation d'un site de photographe",
             "description": "Débogage et optimisation d'un site web de photographe",
             "technologies": ["HTML", "CSS", "JavaScript", "SEO", "Référencement"],
-            "lien": "Lien vers le projet",
+            "lien": "https://meeifox.github.io/nina-carducci/",
             "img" :"https://www.zupimages.net/up/23/17/vkwu.png"
         },
         {
             "nom": "Kasa : Application web de location immobilière",
             "description": "Création d'une application web de location immobilière avec React",
             "technologies": ["React", "JavaScript", "CSS"],
-            "lien": "Lien vers le projet",
+            "lien": "https://meeifox.github.io/kasa/",
             "img" : "https://www.zupimages.net/up/23/17/hqpn.png"
         },
         {

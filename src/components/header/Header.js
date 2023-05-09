@@ -21,7 +21,7 @@ function Header () {
                         <li><h3>Mes projetes réalisés</h3></li>                        
                         <li><a href="https://www.linkedin.com/in/napakon-portier-711105271/"><i className="fa-brands fa-linkedin"></i></a></li>
                         <li><a href="https://github.com/Meeifox"><i className="fa-brands fa-github"></i></a></li>
-                        <li><h3>Téléchargez mon CV</h3><i class="fa-solid fa-download"></i></li>                  
+                        <li><h3>Téléchargez mon CV</h3><i className="fa-solid fa-download"></i></li>                  
                     </ul>                    
                 </nav>  
             </div> 
