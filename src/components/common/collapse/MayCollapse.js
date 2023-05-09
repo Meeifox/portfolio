@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import './Collapse.scss';
+import './MayCollapse.scss';
 
 /**
 La fonction Collapse est un composant qui représente une section de texte qui peut être réduite ou agrandie en cliquant sur un bouton (ici button).
 @param {*} props - les propriétés passées au composant, qui contiennent le titre et le contenu de la section.
 @returns - le composant Collapse qui affiche le titre et le contenu de la section, ainsi qu'un bouton type open/close pour réduire ou agrandir la section.
 */
-function Collapse(props) {
+function MayCollapse(props) {
   const [isOpen, setIsOpen] = useState(false);
 
   // fonction pour changer l'état de isOpen
@@ -27,5 +27,5 @@ function Collapse(props) {
    );
 }
 
-export default Collapse;
+export default MayCollapse;
 
