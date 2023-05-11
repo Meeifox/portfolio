@@ -7,123 +7,134 @@
     "email": "nay.portier@gmail.com",
     "resume": "En tant que développeuse web en reconversion, j'ai choisi de poursuivre une carrière dans un domaine qui me passionne et qui offre de nombreuses opportunités d'apprentissage et de développement professionnel. Bien que mon parcours professionnel précédent soit différent, j'ai toujours été fascinée par la technologie et je suis convaincue que ma passion pour ce domaine me permettra de réussir dans ma reconversion.",
     "soft-skill" : {    
-            "hobbies" : [
-                "Coder",
-                "Animaux", 
-                "Cuisine", 
-                "Jeux Vidéo", 
-                "Culture Japonaise",
-                "Manga"                
-            ],
-            "personality" : [
-                "Motivée : Quand j'ai un objectif, je ne lâche pas !",
-                "Passionnée : J'ai tendance à ne pas voir le temps passer quand je commence à coder",
-                "Curieuse : Quand je vois une fonctionnalitée intéressante, je veux savoir comment elle fonctionne"
-            ],
-            "langage" : [
-                "Thai : Courant",
-                "Français : Courant",
-                "Anglais : Intermédiaire"
-            ]        
-        },
-    "compétences-informatique": [
-        {
-            "nom": "HTML/CSS",
-            "niveau": "Intermédiaire"
-        },
-        {
-            "nom": "JavaScript",
-            "niveau": "Débutante",
-            "version" : "ES6"
-        },
-        {
-            "nom": "React",
-            "niveau": "Débutante",
-            "version" : "18.2.0"
-        },
-        {
-            "nom": "Node.js",
-            "niveau": "Débutante",
-            "version" : "18.15.0"
-        },
-        {
-            "nom": "JAVA",
-            "niveau": "Débutante",
-            "version" : "8"
-        }
+    "hobbies" : [
+        "Coder",
+        "Animaux", 
+        "Cuisine", 
+        "Jeux Vidéo", 
+        "Culture Japonaise",
+        "Manga"                
+    ],
+    "personality" : [
+        "Motivée : Quand j'ai un objectif, je ne lâche pas !",
+        "Passionnée : J'ai tendance à ne pas voir le temps passer quand je commence à coder",
+        "Curieuse : Quand je vois une fonctionnalitée intéressante, je veux savoir comment elle fonctionne"
+    ],
+    "langage" : [
+        "Thai : Courant",
+        "Français : Courant",
+        "Anglais : Intermédiaire"
+    ]        
+},
+"competences": [
+    {
+        "nom": "HTML",
+        "niveau": "Intermédiaire",
+        "version" : "5",
+        "logo" : "<i class=\"fa-brands fa-html5\"></i>"
+    },
+    {
+        "nom": "CSS",
+        "niveau": "Intermédiaire",
+        "version" : "3",
+        "logo" : "<i class=\"fa-brands fa-css3-alt\"></i>"
+    },
+    {
+        "nom": "JavaScript",
+        "niveau": "Débutante",
+        "version" : "ES6",
+        "logo" : "<i class=\"fa-brands fa-square-js\"></i>"
+    },
+    {
+        "nom": "React",
+        "niveau": "Débutante",
+        "version" : "18.2.0",
+        "logo" : "<i class=\"fa-brands fa-react\"></i>"
+    },
+    {
+        "nom": "Node.js",
+        "niveau": "Débutante",
+        "version" : "18.15.0",
+        "logo" : "<i class=\"fa-brands fa-node\"></i>"
+    },
+    {
+        "nom": "JAVA",
+        "niveau": "Débutante",
+        "version" : "8",
+        "logo" : "<i class=\"fa-brands fa-java\"></i>"
+    }        
+],          
+"experiences": [
+    {
+        "titre": "TECHNICIENNE CHARGEE DES CONTROLES DES INSTALLATIONS D'ASSAINISSEMENT NON COLLECTIF",
+        "entreprise": "Grand Chambéry",
+        "periode": "2021 - 2022",
+        "description": "J'étais chargée du contrôle des installations d'assainissement non collectif, que ce soit pour des installations existantes, neuves ou réhabilitées. J'avais pour mission de rédiger des attestation et des rapports de conformité après les contrôles des installations, de prendre contact avec les usagers, de répondre à leurs questions, de planifier des prestations de vidanges groupées et de regrouper les subventions liées à l'assainissement non collectif pour les usagers."
+    },
+    {
+        "titre": "Apprentie chargée des installations d'assainissement non collectif",
+        "entreprise": "Arlysere",
+        "periode": "2020 - 2021",
+        "description": "Lors de mon précédent poste, j'ai effectué des contrôles sur les installations d'assainissement non collectif, que ce soit pour des installations existantes, neuves ou réhabilitées. J'ai rédigé des rapports de conformité à l'issue de ces contrôles et j'ai pris contact avec les usagers pour répondre à leurs questions. J'ai également eu pour mission d'instruire les permis de construire en respectant les normes techniques et les spécifications correspondantes. Enfin, j'ai été chargée de regrouper les subventions liées à l'assainissement non collectif pour les usagers."
+    }
+],
+"formations": [
+    {
+        "diplôme": "Titre professionnel de Développeur d'applications (Bac+2)",
+        "établissement": "Openclassroom",
+        "periode": "12/2022 au 08/2023",
+        "statue": "En cours d'obtention"
+    },
+    {
+        "diplôme": "BACCALAUREAT STL opt. Biotechnologie",
+        "établissement": "Candidature libre",
+        "statue": "Obtenu",
+        "date": "2018"
+    },
+    {
+        "diplôme": "BACCALAUREAT STMG opt. Système information",
+        "établissement": "Candidature libre",
+        "statue": "Obtenu",
+        "date": "2015"
+    }
+],
+"projets": [
+    {
+        "nom": "Booki : Page d'accueil d'une agence de voyage",
+        "description": "Création d'une page d'accueil pour une agence de voyage avec HTML et CSS",
+        "technologies": ["HTML", "CSS"],
+        "lien": "https://meeifox.github.io/Projet-2-Booki/",
+        "img" : "https://www.zupimages.net/up/23/17/bepn.png"
+    },
+    {
+        "nom": "Sophie Bluel : Page web dynamique",
+        "description": "Création d'une page web dynamique avec JavaScript",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "lien": "https://meeifox.github.io/Projet-Sophie_BLUEL/",
+        "img" : "https://www.zupimages.net/up/23/17/wme6.png"
         
-    ],
-    "expériences": [
-        {
-            "titre": "TECHNICIENNE CHARGEE DES CONTROLES DES INSTALLATIONS D'ASSAINISSEMENT NON COLLECTIF",
-            "entreprise": "Grand Chambéry",
-            "période": "2021 - 2022",
-            "description": "J'étais chargée du contrôle des installations d'assainissement non collectif, que ce soit pour des installations existantes, neuves ou réhabilitées. J'avais pour mission de rédiger des attestation et des rapports de conformité après les contrôles des installations, de prendre contact avec les usagers, de répondre à leurs questions, de planifier des prestations de vidanges groupées et de regrouper les subventions liées à l'assainissement non collectif pour les usagers."
-        },
-        {
-            "titre": "Apprentie chargée des installations d'assainissement non collectif",
-            "entreprise": "Arlysere",
-            "période": "2020 - 2021",
-            "description": "Lors de mon précédent poste, j'ai effectué des contrôles sur les installations d'assainissement non collectif, que ce soit pour des installations existantes, neuves ou réhabilitées. J'ai rédigé des rapports de conformité à l'issue de ces contrôles et j'ai pris contact avec les usagers pour répondre à leurs questions. J'ai également eu pour mission d'instruire les permis de construire en respectant les normes techniques et les spécifications correspondantes. Enfin, j'ai été chargée de regrouper les subventions liées à l'assainissement non collectif pour les usagers."
-        }
-    ],
-    "formations": [
-        {
-          "diplôme": "Titre professionnel de Développeur d'applications (Bac+2)",
-          "établissement": "Openclassroom",
-          "période": "12/2022 au 08/2023",
-          "statue": "En cours d'obtention"
-        },
-        {
-          "diplôme": "BACCALAUREAT STL opt. Biotechnologie",
-          "établissement": "Candidature libre",
-          "statue": "Obtenu",
-          "date": "2018"
-        },
-        {
-          "diplôme": "BACCALAUREAT STMG opt. Système information",
-          "établissement": "Candidature libre",
-          "statue": "Obtenu",
-          "date": "2015"
-        }
-      ],
-    "projets": [
-        {
-            "nom": "Booki : Page d'accueil d'une agence de voyage",
-            "description": "Création d'une page d'accueil pour une agence de voyage avec HTML et CSS",
-            "technologies": ["HTML", "CSS"],
-            "lien": "https://meeifox.github.io/Projet-2-Booki/",
-            "img" : "https://www.zupimages.net/up/23/17/bepn.png"
-        },
-        {
-            "nom": "Sophie Bluel : Page web dynamique",
-            "description": "Création d'une page web dynamique avec JavaScript",
-            "technologies": ["JavaScript", "HTML", "CSS"],
-            "lien": "https://meeifox.github.io/Projet-Sophie_BLUEL/",
-            "img" : "https://www.zupimages.net/up/23/17/wme6.png"
+    },
+    {
+        "nom": "Nina Carducci : Optimisation d'un site de photographe",
+        "description": "Débogage et optimisation d'un site web de photographe",
+        "technologies": ["HTML", "CSS", "JavaScript", "SEO", "Référencement"],
+        "lien": "https://meeifox.github.io/nina-carducci/",
+        "img" :"https://www.zupimages.net/up/23/17/vkwu.png"
+    },
+    {
+        "nom": "Kasa : Application web de location immobilière",
+        "description": "Création d'une application web de location immobilière avec React",
+        "technologies": ["React", "JavaScript", "CSS"],
+        "lien": "https://meeifox.github.io/kasa/",
+        "img" : "https://www.zupimages.net/up/23/17/hqpn.png"
+    },
+    {
+        "nom": "Mon vieux grimoire Back-end d'un site de notation de livres",
+        "description": "Développement du back-end d'un site de notation de livres avec Node.js, Express et MongoDB",
+        "technologies": ["Node.js", "Express", "MongoDB"],
+        "lien": "https://github.com/Meeifox/mon-vieux-grimoire",
+        "img" : "https://zupimages.net/up/23/19/kceh.png"
+    }
+]
 
-        },
-        {
-            "nom": "Nina Carducci : Optimisation d'un site de photographe",
-            "description": "Débogage et optimisation d'un site web de photographe",
-            "technologies": ["HTML", "CSS", "JavaScript", "SEO", "Référencement"],
-            "lien": "https://meeifox.github.io/nina-carducci/",
-            "img" :"https://www.zupimages.net/up/23/17/vkwu.png"
-        },
-        {
-            "nom": "Kasa : Application web de location immobilière",
-            "description": "Création d'une application web de location immobilière avec React",
-            "technologies": ["React", "JavaScript", "CSS"],
-            "lien": "https://meeifox.github.io/kasa/",
-            "img" : "https://www.zupimages.net/up/23/17/hqpn.png"
-        },
-        {
-            "nom": "Mon vieux grimoire Back-end d'un site de notation de livres",
-            "description": "Développement du back-end d'un site de notation de livres avec Node.js, Express et MongoDB",
-            "technologies": ["Node.js", "Express", "MongoDB"],
-            "lien": "https://github.com/Meeifox/mon-vieux-grimoire",
-            "img" : "https://zupimages.net/up/23/19/kceh.png"
-        }
-    ]
-    
 }

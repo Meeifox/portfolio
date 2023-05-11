@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import data from "../../../../data/data.json";
 import "./Competences.scss";
-import shiba from "../../../../assets/img/shiba1.png";
 
 function Competences() {
   const [activeSection, setActiveSection] = useState(null);
@@ -18,10 +17,6 @@ function Competences() {
 
   return (
     <div className="card-soft-skill">
-      <div className="img-decoration">
-        <img src={shiba} alt="Shiva montrant fierement son os" />
-      </div>
-
       <div className="content-soft-skill">
         <div className="button-skill">
         <button onClick={() => handleClick("hobbies")}>Loisirs</button>

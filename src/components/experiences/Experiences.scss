@@ -1,12 +1,14 @@
-.formation-container {
+.experiences-container {
     display: flex;
     flex-direction: column;
-    background-color: #344966;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: var(--color-orange);
     padding: 2rem;
     border-radius: 20px;
     width: 100%;
     h2 {
-        color : #fff;
+        color :var(--color-bleufonce);
     }
     article {
         border: 1px solid #ccc;
@@ -14,7 +16,7 @@
         margin-bottom: 1rem;
         padding: 0.5rem;
         box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-        background-color: #ebdfcd;
+        background-color: var(--color-creme);
         h3 {
             margin : 0;
         }
@@ -23,6 +25,3 @@
         }
     }
 }
-
-
-

@@ -1,0 +1,44 @@
+.competences {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--color-bleuindigo);
+    height: 160px;
+    width: 100%;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+  
+  .competence {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: beige;
+    
+    &:hover {
+      background-color: #23263a;
+      color: white;
+      transform: scale(1.1);
+    }
+    p {
+      margin: 0;
+    }    
+    span {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .logo {
+      i {
+        font-size: 50px;
+        color: rgb(0, 255, 255);
+      }
+      i:hover {
+        color: rgb(122, 184, 255);
+      }
+    }
+  }

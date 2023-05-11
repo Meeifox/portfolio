@@ -1,28 +1,36 @@
-.home {
+.home {    
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap : 10px;
+    gap : 20px;
     margin-bottom: 20px;
     height: 100%;
     justify-content: center;
     
     #presentation {
+        background-image: url(../../assets/img/shiba1.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
         display: flex;
-        justify-content: center;
-        align-items: center;     
+        justify-content: center;    
         gap: 50px;
-        max-height: 60vh;
         padding: 0 40px 0 40px;
     }
     
-    .formation-experience{
-        margin: 0 25px 0 25px;
+    #formation{
+        padding: 0 40px 0 40px;
+        max-width: 100%;
         display: flex;
         flex-direction: row;
-        flex : 1;
+        justify-content: space-around;
         gap: 50px;
     }
+    #competence-informatique {
+        display: flex;
+    }
+
+
 }
 
 @media screen and (max-width: 768px){
