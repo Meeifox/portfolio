@@ -26,7 +26,7 @@ function Competences() {
         <div className="button-skill">
         <button onClick={() => handleClick("hobbies")}>Loisirs</button>
         <button onClick={() => handleClick("personality")}>Personnalité</button>
-        <button onClick={() => handleClick("langage")}>Langue parlée</button>
+        <button onClick={() => handleClick("langage")}>Langues parlées</button>
         </div>
         {activeSection === "hobbies" && (
           <div className="text-skill">

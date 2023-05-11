@@ -1,28 +1,26 @@
 .card {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  position: relative;
+  flex-direction: row;
+  
   width: 100%;
-  max-width: 280px;
-  padding: 20px;
-  background-color: #fff;
+  height: 100%;
   border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
-  height: 330px;
   flex-grow: 2;
-    
+  
   .card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #EF8E53;
+    padding: 20px;
+    border-radius: 5%;
   }
   
   .card-image {
     width: 250px;
-    height: 250px;    
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     
@@ -33,60 +31,79 @@
     }
   }
   
-  .card-footer {    
-    width: 100%;
-    
-    .card-info {
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    h2 {
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    ul {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
       gap: 10px;
-      list-style: none;
-      padding: 0;
+    .info-item {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color : var(--color-bleufonce);
+      gap: 10px;
       
-      .info-item {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
-        color: #666;
-        gap: 10px;
+      svg {
+        font-size: 16px;
+      }
+      
+      a {
+        color: var(--color-bleufonce);
+        text-decoration: none;
         
-        svg {
-          font-size: 16px;
-        }
-        
-        a {
-          color: #666;
-          text-decoration: none;
-          
-          &:hover {
-            color: #333;
-          }
+        &:hover {
+          color: var(--color-bleuclair);
         }
       }
     }
   }
+  } 
   
   .summary {
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: justify;
-    position: absolute;
-    top: 0;
-    left : 290px;
-    opacity: 0;
-    min-width: 300px;
-    height: 330px;
-    padding : 20px;
-    font-size: 14px;
+    min-width: 300px; 
+    max-height: 100%;
+    padding: 20px;
+    font-size: 20px;
     color: #666;
     background-color: #fff;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    transition: all 1.5s ease-in-out;
+    border-radius: 20px;
+    
+    order: 2; /* Pour faire descendre la summary sous la carte */
   }
 }
-.card:hover .summary {
-  opacity: 1;
-  left : 290px;
+
+@media screen and (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  .card-image {
+    margin-bottom: 20px;
+    display : flex ;
+    flex-direction : column;  
+  }
+  .card-content {
+    padding: 20px 0 20px 0;
+  }
+  
+  .summary {
+    order: 1; /* Pour remonter la summary au-dessus de la carte sur les appareils mobiles */
+  }
+  }
 }

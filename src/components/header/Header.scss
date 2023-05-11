@@ -116,3 +116,35 @@
     }
   }
 }
+
+@media screen and (max-width : 768px) {
+  .header{
+    .banner{
+      img {
+        width: auto;
+        height: 100%;
+      }
+      .banner-text {   
+        z-index: 1;
+        bottom : -100px;
+        h2 {
+          padding-right: 20px;
+          font-size: 1.5em;
+          text-align: end;
+          color: #fff;
+        }
+      }
+      #navBar {
+        nav{
+          ul{
+            flex-direction: column;
+            gap: 10px;
+            font-size: 1em;
+          }
+        }
+      }
+    }
+    
+    
+  }
+}

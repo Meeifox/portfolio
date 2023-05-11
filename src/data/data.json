@@ -9,7 +9,7 @@
     "soft-skill" : {    
             "hobbies" : [
                 "Coder",
-                "Annimaux", 
+                "Animaux", 
                 "Cuisine", 
                 "Jeux Vidéo", 
                 "Culture Japonaise",
@@ -18,11 +18,11 @@
             "personality" : [
                 "Motivée : Quand j'ai un objectif, je ne lâche pas !",
                 "Passionnée : J'ai tendance à ne pas voir le temps passer quand je commence à coder",
-                "Curieuse : Quand je vois une fonctionnalitée intéressantes, je veux savoir comment elle fonctionne"
+                "Curieuse : Quand je vois une fonctionnalitée intéressante, je veux savoir comment elle fonctionne"
             ],
             "langage" : [
-                "Thai : Courrant",
-                "Français : Courrant",
+                "Thai : Courant",
+                "Français : Courant",
                 "Anglais : Intermédiaire"
             ]        
         },
@@ -75,13 +75,13 @@
           "statue": "En cours d'obtention"
         },
         {
-          "diplôme": "BACCALAUREAL STL opt. Biotechnologie",
+          "diplôme": "BACCALAUREAT STL opt. Biotechnologie",
           "établissement": "Candidature libre",
           "statue": "Obtenu",
           "date": "2018"
         },
         {
-          "diplôme": "BACCALAUREAL STMG opt. Système information",
+          "diplôme": "BACCALAUREAT STMG opt. Système information",
           "établissement": "Candidature libre",
           "statue": "Obtenu",
           "date": "2015"
@@ -89,7 +89,7 @@
       ],
     "projets": [
         {
-            "nom": "Boki : Page d'accueil d'une agence de voyage",
+            "nom": "Booki : Page d'accueil d'une agence de voyage",
             "description": "Création d'une page d'accueil pour une agence de voyage avec HTML et CSS",
             "technologies": ["HTML", "CSS"],
             "lien": "https://meeifox.github.io/Projet-2-Booki/",

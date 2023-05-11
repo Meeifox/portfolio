@@ -17,11 +17,11 @@ function Header () {
                 <div id='navBar'>                
                 <nav>                    
                     <ul>
-                        <li><h3>Présentation</h3></li>
-                        <li><h3>Mes projetes réalisés</h3></li>                        
+                        <li><a href="#presentation"><h3>Présentation</h3></a></li>
+                        <li><a href="#projets-realises"><h3>Mes projets réalisés</h3></a></li>                        
                         <li><a href="https://www.linkedin.com/in/napakon-portier-711105271/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a></li>
                         <li><a href="https://github.com/Meeifox"><i className="fa-brands fa-github" target="_blank" rel="noopener noreferrer"></i></a></li>
-                        <li><a href="https://www.dropbox.com/s/c7ny8p2oo93dzhl/CV%20NPORTIER11052023.pdf?dl=1" target="_blank" rel="noopener noreferrer"><h3>Téléchargez mon CV</h3><i className="fa-solid fa-download"></i></a></li>                  
+                        <li><a href="https://www.dropbox.com/s/dh2dns5986yey6u/CV%20NPORTIER11052023.pdf?dl=1" target="_blank" rel="noopener noreferrer"><h3>Téléchargez mon CV</h3><i className="fa-solid fa-download"></i></a></li>                  
                     </ul>                    
                 </nav>  
             </div> 

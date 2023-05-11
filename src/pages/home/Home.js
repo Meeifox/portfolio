@@ -8,11 +8,11 @@ import ProjetsRealises from '../../components/common/projetsRealises/ProjetsReal
 export default function Home () {
     return (
         <main className='home'>
-        <section className='presentation'>
+        <section id='presentation'>
         <CardPerso></CardPerso>    
         <Competences></Competences> 
         </section>
-        <section className='projets-realises'>
+        <section id='projets-realises'>
         <ProjetsRealises></ProjetsRealises>
         </section>
         </main>
