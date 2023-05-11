@@ -37,7 +37,7 @@
         text-align: end;
         color: #fff;
       }
-
+      
     }
     .collapse {
       position: absolute;
@@ -69,12 +69,12 @@
       z-index: 1;
       overflow-x: hidden;
       height: auto;
-
+      
       h3{
         font-size: 1.5em;
         font-weight: 400;
       }
-            
+      
       nav {
         display: flex;
         justify-content: space-between;
@@ -93,6 +93,7 @@
           list-style: none;  
           li {
             display: flex;
+            flex-direction : column;
             justify-content: center;
             align-items: center;
             gap: 10px;
@@ -100,6 +101,14 @@
           i {
             font-size: 2em;
             color: #fff;
+          }
+          a {
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            color : #fff;
+            text-decoration : none;
+            gap : 10px;
           }             
         }
         

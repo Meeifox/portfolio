@@ -33,6 +33,8 @@ function MayCarousel() {
               isActive={index === currentProjectIndex}
               goToPrevProject={goToPrevProject}
               goToNextProject={goToNextProject}
+              target="_blank" 
+              rel="noopener noreferrer" 
             />
           ))}
         </div>

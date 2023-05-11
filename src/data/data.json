@@ -92,7 +92,7 @@
             "nom": "Boki : Page d'accueil d'une agence de voyage",
             "description": "Création d'une page d'accueil pour une agence de voyage avec HTML et CSS",
             "technologies": ["HTML", "CSS"],
-            "lien": "Lien vers le projet",
+            "lien": "https://meeifox.github.io/Projet-2-Booki/",
             "img" : "https://www.zupimages.net/up/23/17/bepn.png"
         },
         {
@@ -121,7 +121,8 @@
             "nom": "Mon vieux grimoire Back-end d'un site de notation de livres",
             "description": "Développement du back-end d'un site de notation de livres avec Node.js, Express et MongoDB",
             "technologies": ["Node.js", "Express", "MongoDB"],
-            "lien": "Lien vers le projet"
+            "lien": "https://github.com/Meeifox/mon-vieux-grimoire",
+            "img" : "https://zupimages.net/up/23/19/kceh.png"
         }
     ]
     
