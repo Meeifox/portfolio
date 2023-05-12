@@ -6,7 +6,26 @@
   --color-vert: #bfcc94; 
   --color-orange: #EF8E53;
 } 
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../src/assets/font/GreatVibes-Regular.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: 'Cairo Play';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../src/assets/font/CairoPlay-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo Play Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../src/assets/font/CairoPlay-ExtraBold.ttf') format('truetype');
+}
 /* Couleur de la scrollbar */
 ::-webkit-scrollbar {
   width: 15px;

@@ -14,8 +14,8 @@ function CardPerso() {
           <img src={portrait} alt={nom} />
         </div>
         <div className="card-info">
-          <h2 className="card-title">{nom}</h2>
-          <p className="card-subtitle">{jobTitle}</p>
+          <h1 className="card-title">{nom}</h1>
+          <h2 className="card-subtitle">{jobTitle}</h2>
           <p className="card-subtitle">{age} ans</p>    
         <ul>
           <li className="info-item"><FontAwesomeIcon icon={faMapMarkerAlt} />{adresse}</li>

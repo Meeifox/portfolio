@@ -11,21 +11,20 @@ import CompetencesInformatique from '../../components/common/competencesDev/Comp
 export default function Home () {
     return (
         <main className='home'>
-        <section id='presentation'>
-        <CardPerso></CardPerso>    
-        <Competences></Competences> 
-        </section>       
-        <section id='competence-informatique'>
-        <CompetencesInformatique></CompetencesInformatique>
-        </section>
-        <section id='projets-realises'>
-        <ProjetsRealises></ProjetsRealises>
-        </section>
-        <section id='formation'>
-        <Formation></Formation>
-        <Experiences></Experiences>
-        </section>
-
+            <section id='presentation'>
+                <CardPerso></CardPerso>    
+                <Competences></Competences> 
+            </section>       
+            <section id='competence-informatique'>
+                <CompetencesInformatique></CompetencesInformatique>
+            </section>
+            <section id='projets-realises'>
+                <ProjetsRealises></ProjetsRealises>
+            </section>
+            <section id='formation'>
+                <Formation></Formation>
+                <Experiences></Experiences>
+            </section>
         </main>
     )
 }

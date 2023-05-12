@@ -4,7 +4,9 @@ import './CompetencesDev.scss';
 
 const CompetencesInformatique = () => {
   return (
-    <div className="competences">
+    <div className='cometence-dev-body'>
+  <h2>Compétences en développement</h2>
+    <div className="competences">      
       {competences.competences.map((competence) => (
         <div
           className="competence"
@@ -17,6 +19,7 @@ const CompetencesInformatique = () => {
           <span>ver. {competence.version}</span>
         </div>
       ))}
+    </div>
     </div>
   );
 };

@@ -6,6 +6,7 @@
     margin-bottom: 20px;
     height: 100%;
     justify-content: center;
+
     
     #presentation {
         background-image: url(../../assets/img/shiba1.png);
@@ -25,10 +26,21 @@
         flex-direction: row;
         justify-content: space-around;
         gap: 50px;
+        h2{
+            font-family: 'Great Vibes', cursive;
+            font-size: 2.5em;
+            text-align: center;
+        }
     }
     #competence-informatique {
         display: flex;
         justify-content: center;
+        width: 100%;
+        h2{
+            font-family: 'Great Vibes', cursive;
+            font-size: 2.5em;
+            text-align: center;
+        }
     }
 
 
