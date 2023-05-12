@@ -23,6 +23,20 @@
         }
     }
 }
-
+@media screen and (max-width:768px) {
+    .formation-container{
+        padding: 20px 0 20px 0;
+        width: 95%;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        article {
+            width: 80%;
+            margin-bottom: 0;
+            padding: 0.5rem;
+        }
+    }
+}
 
 
