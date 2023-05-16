@@ -34,7 +34,7 @@ function ProjetsRealises() {
       <h2>Projets réalisés</h2>
       <div className="projet-cards">
         {data.projets.map((projet, index) => (
-          <Card key={index} className="card">
+          <Card key={index} className="projet-card">
             <Link to={projet.lien} className="card-link">
               <CardHeader
                 avatar={

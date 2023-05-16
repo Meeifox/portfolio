@@ -34,7 +34,7 @@
             color: inherit;
         }
         
-        .card {
+        .projet-card {
             background-color: var(--color-creme);
             max-width: 100%;        
             min-width: 350px;
@@ -49,6 +49,12 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .projet-card {
+        width : 100%;
     }
 }
 

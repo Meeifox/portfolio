@@ -27,7 +27,7 @@
     width: 100%;
     max-height: 100%;
     gap: 30px;
-
+    
     .box-soft-content {
       display: flex;
       flex-direction: column;
@@ -35,7 +35,7 @@
       border-radius: 15px;
       position: static;
       
-
+      
       .competence-box{
         ul{
           display: flex;
@@ -47,7 +47,7 @@
           }
         }
       }
-
+      
       .competence-box-column{
         ul{
           display: flex;
@@ -117,7 +117,7 @@ ul {
     justify-content: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     
-
+    
     
     .content-soft-skill {
       display: flex;
@@ -127,7 +127,7 @@ ul {
       .box-soft-content {
         width: 90%;
       }
-
+      
       .button-skill {
         display: flex;
         flex-direction: column;
@@ -152,6 +152,15 @@ ul {
           }
         }      
       }  
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .competence-box {
+    ul {
+      display : flex ;
+      flex-direction : column;
     }
   }
 }

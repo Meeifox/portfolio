@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, List, ListItem, ListItemText, ListItemIcon } from '@mui/material';
+import { IconButton, List, ListItem, ListItemText, ListItemIcon } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -7,7 +7,7 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import PermMediaIcon from '@mui/icons-material/PermMedia';
 import PortraitIcon from '@mui/icons-material/Portrait';
 import './NavBar.scss';
-import { orange } from '@mui/material/colors';
+
 
 function ResponsiveAppBar() {
   const [open, setOpen] = React.useState(false);
