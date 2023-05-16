@@ -5,5 +5,13 @@
   flex-direction: column;
   justify-content: center;
   gap: 100px;
+
+  .fab {
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    color: #ff784e;
+    background-color: rgb(42, 41, 41);
+  }
 }
 

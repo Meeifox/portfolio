@@ -45,18 +45,20 @@
 
 
 }
+@media screen and (max-width: 1080px) {
+    #presentation {
+        display : flex;
+        flex-direction : column;
+        justify-content: center;
+        max-height: 100%;
+        padding: 0;
+    }
+}
 
 @media screen and (max-width: 768px){
     .home {
         height: 100%;
         max-height: 100%;
-        #presentation {
-            display : flex;
-            flex-direction : column;
-            justify-content: center;
-            max-height: 100%;
-            padding: 0;
-        }
         #formation{
             padding: 40px 0 40px 0;
             max-width: 100%;

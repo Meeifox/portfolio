@@ -1,9 +1,8 @@
 import './Home.scss';
-import CardPerso from '../../components/common/collapse/cardPerso/CardPerso';
-import Competences from '../../components/common/collapse/competences/Competences';
+import CardPerso from '../../components/common/cardPerso/CardPerso';
+import Competences from '../../components/common/competences/Competences';
 import ProjetsRealises from '../../components/common/projetsRealises/ProjetsRealises';
-import Formation from '../../components/parcours/Formation'
-import Experiences from '../../components/experiences/Experiences';
+import Formation from '../../components/parcours/Formation';
 import CompetencesInformatique from '../../components/common/competencesDev/CompetencesDev';
 
 
@@ -23,7 +22,6 @@ export default function Home () {
             </section>
             <section id='formation'>
                 <Formation></Formation>
-                <Experiences></Experiences>
             </section>
         </main>
     )

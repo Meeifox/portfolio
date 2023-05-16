@@ -1,15 +1,54 @@
-.carousel-card {
-    background-image: url(../../../assets/img/renard8.png);
-    background-repeat: no-repeat;
+.projet-done {
     display: flex;
-    flex: 1;
-    width: 100%;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;  
-    h2{
-        font-family: 'Great Vibes', cursive;
-        font-size: 2.5em;
+    align-items: center;
+    h2 {
         text-align: center;
+        font-family: 'Great Vibes';
+        font-size: 2.5em;
+    }
+    a {
+        color: var(--color-bleufonce);
+        font-family: monospace;
+    }
+    a:hover {
+        color: rgb(255, 132, 0);
+    }
+    .projet-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        p {
+            color: var(--color-bleufonce);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .card {
+            background-color: var(--color-creme);
+            max-width: 100%;        
+            min-width: 350px;
+            color: var(--color-bleufonce);
+            .card-footer {
+                text-align: center;
+                .card-list-title{
+                    font-family: Cairo Play;
+                    font-size: 20px;
+                    color: rgb(255, 132, 0);
+                    font-weight: 800;
+                }
+            }
+        }
     }
 }
+

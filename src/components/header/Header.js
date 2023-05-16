@@ -1,34 +1,26 @@
-import './Header.scss'
 import banner from '../../assets/img/banner.jpg';
-import MayCollapse from '../common/collapse/MayCollapse';
+import './Header.scss';
+import ResponsiveAppBar from '../common/navBar/NavBar';
 
 
 
+function Header() {  
 
-function Header () {
-    return (
-        <div className='header'>   
-            <div className='banner'>
-                <img src={banner} alt="Renard Sautant"/>
-                <div className="banner-text">
-                <h2>Développeuse passionnée, en quête d'une entreprise dynamique où je pourrais mettre mes compétences au service de projets ambitieux.</h2>
-                </div>
-                <MayCollapse title={<i className="fa-solid fa-bars" ></i>}>
-                <div id='navBar'>                
-                <nav>                    
-                    <ul>
-                        <li><a href="#presentation"><h3>Présentation</h3></a></li>
-                        <li><a href="#projets-realises"><h3>Mes projets réalisés</h3></a></li>                        
-                        <li><a href="https://www.linkedin.com/in/napakon-portier-711105271/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/Meeifox"><i className="fa-brands fa-github" target="_blank" rel="noopener noreferrer"></i></a></li>
-                        <li><a href="https://www.dropbox.com/s/dh2dns5986yey6u/CV%20NPORTIER11052023.pdf?dl=1" target="_blank" rel="noopener noreferrer"><h3>Téléchargez mon CV</h3><i className="fa-solid fa-download"></i></a></li>                  
-                    </ul>                    
-                </nav>  
-            </div> 
-            </MayCollapse>
-            </div>
-    </div>                
-  
-)}
+  return (
+    <header className="header">     
+      <div className="banner">        
+        <div className="banner-image">          
+          <img src={banner} alt="Renard Sautant" />
+          <ResponsiveAppBar></ResponsiveAppBar>
+        </div>
+        
+        <div className="banner-text">
+          <h2>Développeuse passionnée, en quête d'une entreprise dynamique où je pourrais mettre mes compétences au service de projets ambitieux.</h2>
+        </div>
+         
+      </div>
+    </header>
+  );
+  }
 
-export default Header;
+  export default Header;
