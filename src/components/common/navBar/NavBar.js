@@ -48,7 +48,7 @@ function ResponsiveAppBar() {
             </ListItemIcon>
             <ListItemText primary="GitHub" />
           </ListItem>
-          <ListItem buttonbase={{toString}} component="a" href="https://www.dropbox.com/s/9cfzgo2mx978sy4/CV%20Developpeuse%20Web%20NPORTIER%2022052023.pdf?dl=1" target="_blank" rel="noopener noreferrer">
+          <ListItem buttonbase={{toString}} component="a" href="https://www.dropbox.com/s/nvuv91xl6v31y5q/CV%20Developpeuse%20Web%20NPORTIER%2022052023.pdf?dl=1" target="_blank" rel="noopener noreferrer">
             <ListItemIcon>
               <FileDownloadIcon />
             </ListItemIcon>
