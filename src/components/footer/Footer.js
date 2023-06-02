@@ -3,7 +3,7 @@ import "./Footer.scss"
 function Footer() {
     return(
         <div id='footer'>
-            {<p> Napakon PORTIER - Mai 2023</p>}
+            {<p> Napakon PORTIER - Juin 2023</p>}
         </div>
 
     )

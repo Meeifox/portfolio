@@ -82,8 +82,7 @@
     {
         "diplôme": "Titre professionnel de Développeur d'applications (Bac+2)",
         "établissement": "Openclassroom",
-        "statue": "En cours d'obtention",
-        "date": ""
+        "statue": "En cours d'obtention"
     },
     {
         "diplôme": "BACCALAUREAT STL opt. Biotechnologie",
@@ -132,7 +131,7 @@
         "nom": "Mon vieux grimoire Back-end d'un site de notation de livres",
         "description": "Développement du back-end d'un site de notation de livres.",
         "technologies": ["Node.js", "Express", "MongoDB"],
-        "lien": "https://github.com/Meeifox/mon-vieux-grimoire",
+        "lien": "https://github.com/Meeifox/mon_vieux_grimoire",
         "img" : "https://zupimages.net/up/23/19/kceh.png"
     }
 ]
