@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.158949c7.css",
-    "main.js": "/portfolio/static/js/main.bf72e28a.js",
+    "main.css": "/portfolio/static/css/main.4dd8c8fd.css",
+    "main.js": "/portfolio/static/js/main.8520977f.js",
     "static/js/787.f515b900.chunk.js": "/portfolio/static/js/787.f515b900.chunk.js",
     "static/media/banner.jpg": "/portfolio/static/media/banner.f02df9e8d55a117e45cb.jpg",
     "static/media/CairoPlay-ExtraBold.ttf": "/portfolio/static/media/CairoPlay-ExtraBold.0672f3aded91f262c030.ttf",
@@ -10,12 +10,12 @@
     "static/media/shiba1.png": "/portfolio/static/media/shiba1.28a66e4255d34464ea8c.png",
     "static/media/may.jpg": "/portfolio/static/media/may.e70449a4aab136db0495.jpg",
     "index.html": "/portfolio/index.html",
-    "main.158949c7.css.map": "/portfolio/static/css/main.158949c7.css.map",
-    "main.bf72e28a.js.map": "/portfolio/static/js/main.bf72e28a.js.map",
+    "main.4dd8c8fd.css.map": "/portfolio/static/css/main.4dd8c8fd.css.map",
+    "main.8520977f.js.map": "/portfolio/static/js/main.8520977f.js.map",
     "787.f515b900.chunk.js.map": "/portfolio/static/js/787.f515b900.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.158949c7.css",
-    "static/js/main.bf72e28a.js"
+    "static/css/main.4dd8c8fd.css",
+    "static/js/main.8520977f.js"
   ]
 }
