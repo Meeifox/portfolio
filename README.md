@@ -6,7 +6,7 @@ Bienvenue dans mon portfolio de développeuse web fullstack. Vous trouverez ici 
 
 - Mes projets réalisés
 - [Mon profil LinkedIn](https://www.linkedin.com/in/napakon-portier-711105271/)
-- [Mon CV à télécharger](https://www.dropbox.com/scl/fi/uty3vd0vjf9tjdudrc1un/CV-NPOR-Developpeuse-Web-Junior.pdf?rlkey=b83ourvci7mlna3ympeawh9be&dl=1)
+- [Mon CV à télécharger](https://www.dropbox.com/scl/fi/fukb34a7l9bvqjkpq4mky/CV-NPOR-Developpeuse-Web-Junior082023.pdf?rlkey=7e7scgfdykubo8nlo9sy5thju&dl=1)
 
 ## Installation
 
