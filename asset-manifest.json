@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.646e3dba.css",
+    "main.js": "/portfolio/static/js/main.b38b9a7a.js",
+    "static/js/787.f515b900.chunk.js": "/portfolio/static/js/787.f515b900.chunk.js",
+    "static/media/banner.jpg": "/portfolio/static/media/banner.f02df9e8d55a117e45cb.jpg",
+    "static/media/CairoPlay-ExtraBold.ttf": "/portfolio/static/media/CairoPlay-ExtraBold.0672f3aded91f262c030.ttf",
+    "static/media/CairoPlay-Light.ttf": "/portfolio/static/media/CairoPlay-Light.40538c7f90c71d0e9105.ttf",
+    "static/media/GreatVibes-Regular.ttf": "/portfolio/static/media/GreatVibes-Regular.39c04c4f40f4b2c45bcc.ttf",
+    "static/media/shiba1.png": "/portfolio/static/media/shiba1.28a66e4255d34464ea8c.png",
+    "static/media/may.jpg": "/portfolio/static/media/may.e70449a4aab136db0495.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.646e3dba.css.map": "/portfolio/static/css/main.646e3dba.css.map",
+    "main.b38b9a7a.js.map": "/portfolio/static/js/main.b38b9a7a.js.map",
+    "787.f515b900.chunk.js.map": "/portfolio/static/js/787.f515b900.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.646e3dba.css",
+    "static/js/main.b38b9a7a.js"
+  ]
+}
